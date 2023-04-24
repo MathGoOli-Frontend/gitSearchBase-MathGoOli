@@ -26,6 +26,8 @@ body, main, section,button,input {
   --font--weight-2: 500;
   --font--weight-3: 400;
 
+  --radius: 4px;
+
 }
 
 body{
