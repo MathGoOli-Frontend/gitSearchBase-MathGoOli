@@ -12,11 +12,36 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <!-- css -->
+    <link rel="stylesheet" href="../styles/globalStyles.css">
+    <link rel="stylesheet" href="../styles/profile.css">
+    
+    <!-- scripts -->
+    <script type="module" src="../scripts/profile.js" defer></script>
 
     <title>Git Search - User Profile</title>
   </head>
   <body>
+    <header class="header__container">
+      <div class="header__profile">
+        <img class="header__img" src="" alt="">
+        <h2>Lamuel Seão ⚠️</h2>
+      </div>
+      <button class="header__changeUser btn">
+        Trocar de Usuário
+      </button>
+    </header>
+    <main class="main__container">
+      <ul class="card__deck">
+        <li class="card__containner">
+          <article class="card__article">
+            <h3 class="card__title">⚠️ Aviso ⚠️</h3>
+            <p class="card__p">Se você esta lendo este card. O jS não renderizou a pagina. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti natus quod minus corporis molestias. Numquam tempore, suscipit eaque sed iusto facilis similique repellat praesentium. Optio illo assumenda doloremque beatae eos.</p>
+          </article>
+          <button class="card__btn btn">Repositório</button>
+        </li>
+      </ul>
+    </main>
 
-    <script type="module" src="../scripts/profile.js"></script>
   </body>
 </html>

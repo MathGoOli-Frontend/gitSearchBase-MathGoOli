@@ -32,5 +32,22 @@ body, main, section,button,input {
 
 body{
   font-family: var(--font-primary);
+  background-color: var(--color-grey-2);
   color: var(--color-grey-7);
+}
+
+.btn{
+  width: 316px;
+  height: 38px;
+  margin: 0;
+  border: none;
+
+  background-color: var(--color-brand-1);
+  color: var(--color-grey-7);
+  font-size: var(--font--size--text-3);
+  font-weight: var(--font--weight-3);
+}
+
+.btn:hover{
+  background-color: var(--color-brand-2);
 }
