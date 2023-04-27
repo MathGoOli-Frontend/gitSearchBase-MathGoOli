@@ -31,11 +31,15 @@
     position: relative;
     bottom: 15vh;
 }
+.main__textContainer-right{
+    width: 320px;
+}
 
 .main__title{
     font-size: var(--font--size--title-1);
     font-weight: var(--font--weight-1);
     margin-top: 0;
+    margin-bottom: 50px;
 }
 
 .main__p{
@@ -47,6 +51,7 @@
     font-size: var(--font--size--title-2);
     font-weight: var(--font--weight-2);
     margin-top: 0;
+    margin-bottom: 50px;
 }
 
 .right__form{
