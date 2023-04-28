@@ -7,7 +7,7 @@ const buttonHandle = () => {
         userStorage("@userInfo", "delete")
         userStorage("@userRepos", "delete")
 
-        window.location.replace("/")
+        window.location.replace("../../")
     })
 }
 

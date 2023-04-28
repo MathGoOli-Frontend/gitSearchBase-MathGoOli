@@ -11,7 +11,7 @@ export const getUsername = async (username) => {
         } else {
             throw new Error("usuario não encontrado")
         }
-    }).catch(() => window.location.replace("http://127.0.0.1:5500/src/pages/error.html"))
+    }).catch(() => window.location.replace("./src/pages/error.html"))
     
     return userInfo
 }

@@ -46,7 +46,7 @@ const createCard = (data) =>{
     button.dataset.url = data.html_url
 
     button.addEventListener("click", (event) =>{
-        window.location.href = event.target.dataset.url
+        open(event.target.dataset.url, "_blank")
     })
 
     //montar
