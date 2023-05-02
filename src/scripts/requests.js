@@ -9,9 +9,9 @@ export const getUsername = async (username) => {
         if(response.ok){
             return response.json()
         } else {
-            throw new Error("usuario não encontrado")
+            return window.location.replace("./src/pages/error.html")
         }
-    }).catch(() => window.location.replace("./src/pages/error.html"))
+    })
     
     return userInfo
 }

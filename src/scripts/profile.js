@@ -1,6 +1,13 @@
 import { userStorage } from "./storage.js"
 
 const headerHandle = () => {
+    const button = document.querySelector(".header__changeUser")
+    button.addEventListener("click", (event) => {
+        userStorage("@userInfo", "delete")
+        userStorage("@userRepos", "delete")
+
+        window.location.replace("/")
+    })
 
     const user = userStorage("@userInfo")
 
@@ -13,13 +20,7 @@ const headerHandle = () => {
     const h2 = document.querySelector(".header__username")
     h2.innerText = user.name
 
-    const button = document.querySelector(".header__changeUser")
-    button.addEventListener("click", (event) => {
-        userStorage("@userInfo", "delete")
-        userStorage("@userRepos", "delete")
 
-        window.location.replace("/")
-    })
 
 }
 
